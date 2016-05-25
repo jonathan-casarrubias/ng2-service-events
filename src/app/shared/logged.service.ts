@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
+import { Observable } from 'rxjs/Observable';
 import { Logged } from '../definitions';
 
 @Injectable()
@@ -13,7 +14,7 @@ export class LoggedService {
     this.subject.next(logged);
   }
   
-  getLogged(): Subject<Logged> {
-    return this.subject;
+  getLogged(): Observable<Logged> {
+    return this.subject.asObservable();
   }
 }
