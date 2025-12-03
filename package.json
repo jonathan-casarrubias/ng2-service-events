@@ -13,8 +13,8 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "2.0.0-rc.1",
-    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/common": "19.2.16",
+    "@angular/compiler": "19.2.17",
     "@angular/core": "2.0.0-rc.1",
     "@angular/http": "2.0.0-rc.1",
     "@angular/platform-browser": "2.0.0-rc.1",
